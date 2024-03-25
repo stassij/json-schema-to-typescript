@@ -6,7 +6,7 @@
   "typings": "index.d.ts",
   "scripts": {
     "build": "npm run clean && tsc && node index.js",
-    "clean": "rm -f index.js index.d.ts person.d.ts"
+    "clean": "rm -f index.js index.d.ts person.d.ts fhir.R4.schema.d.ts fhir.R4B.schema.d.ts fhir.R5.schema.d.ts"
   },
   "dependencies": {
     "@types/node": "^13.13.4",
