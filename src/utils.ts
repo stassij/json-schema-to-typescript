@@ -186,7 +186,7 @@ export function generateName(from: string, usedNames: Set<string>) {
   if (!name) {
     name = 'NoName'
   }
-
+/*
   // increment counter until we find a free name
   if (usedNames.has(name)) {
     let counter = 1
@@ -197,7 +197,7 @@ export function generateName(from: string, usedNames: Set<string>) {
     }
     name = nameWithCounter
   }
-
+*/
   usedNames.add(name)
   return name
 }
